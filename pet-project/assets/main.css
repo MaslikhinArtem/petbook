@@ -1,0 +1,117 @@
+
+body{
+    font-family: 'Roboto', sans-serif;
+    background-color: #56443F;
+    color: #D18B47;
+    margin: 0;
+    padding: 0;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+
+form input{
+    margin: 5px;
+    border: unset;
+    border-bottom: 2px solid #e3e3e3;
+    background-color: #D18B47;
+    color: black;
+}
+form input::placeholder{
+    color: #50473e;
+}
+
+form input:focus {
+    outline: none;
+  }
+
+.msg {
+    padding: 1px;
+    border: 1px solid red;
+    border-radius: 20px;
+    text-align: center;
+    font-weight: bold;
+    color: rgb(0, 0, 0);
+    background-color: red;
+}
+
+
+
+.Profile_dropdown {
+    background-color: #292828;
+}
+
+.Profile_dropdown:hover .Profile_dropdown_content:hover {
+    background-color: #292828;
+}
+
+
+
+.Profile_dropdown_entrance {
+    border: 3px solid #000000;
+    border-radius: 20px;
+    padding: 60% 70% 60% 70%;
+    margin: 0% 30% 5% 30%;
+    background-color:#292828; 
+    color: #D18B47; 
+    padding: 14px 16px; 
+    text-align: center;
+}
+
+body, html {
+    height: 100%;
+    margin: 0;
+}
+
+
+
+
+main {
+    margin: 5%;
+    padding: 5%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    height: 70%;
+    background-color: #56443F;
+    border: #000000 solid 5px;
+    border-radius: 20px;
+    margin-bottom: 100%;
+}
+
+.card_service 
+{
+    border: #A47764 solid 2px;
+    border-radius: 20px;
+    background-color: #F1DAAE;
+}
+
+.card-link_color
+{
+    color: #D18B47;
+}
+
+.profale {
+    height: 30px;
+    width: 30px;
+    background-color: rgb(0, 0, 0);
+    margin-top: 2%;
+    border-radius: 20px;
+    align-items: center;
+}
+
+.profale-left
+{
+    border-right: 1px #D18B47 solid;
+    width: 30%;
+}
+.profale-right
+{
+    border-left: 10px #D18B47 solid;
+    width: 70%;
+}

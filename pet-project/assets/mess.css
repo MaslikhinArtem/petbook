@@ -1,0 +1,18 @@
+.profale 
+{
+    display: flex;
+    height: 60%;
+    width: 90%;
+    background-color: rgb(0, 0, 0);
+    margin-top: 2%;
+    border-radius: 20px;
+}
+.profale-left
+{
+    border-right: 1px #D18B47 solid;
+    width: 30%;
+}
+.profale-right
+{
+    width: 70%;
+}
